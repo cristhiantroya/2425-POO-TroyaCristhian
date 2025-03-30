@@ -133,7 +133,7 @@ class TaskManagerApp:
                 self.task_list.insert(tk.END, f"○ {task_text}")
                 self.task_list.itemconfig(tk.END, {'fg': 'black'})
 
-
+#fin
 if __name__ == "__main__":
     root = tk.Tk()
     app = TaskManagerApp(root)
